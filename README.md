@@ -1,41 +1,62 @@
-[![DOI](https://zenodo.org/badge/265119113.svg)](https://zenodo.org/badge/latestdoi/265119113)
+_your zenodo badge here_
 
-# metarepo
-Template repository for a single point of access meta-repository to reproduce an experiment
+# burleyson-etal_2023_tbd
 
-## Purpose
-A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility.  This repository should contain references to all minted data and software as well as house any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
+**When Do Different Scenarios of Future Electricity Demand Start to Meaningfully Diverge?**
 
-## Using the template
-Simply click `Use this template` on the main repository page (shows up to the left of `Clone or download`) and fill in your `Repository name`, the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked.
+Casey D. Burleyson<sup>1\*</sup>, Misha Kulshresta<sup>1,2</sup>, Zarrar Khan<sup>1,3</sup>, and Jennie S. Rice<sup>1</sup>
 
-## Naming your meta-repository
-The following naming conventions should be used when naming your repository:  
-- Single author:  `lastname_year_journal`
-- Multi author:  `lastname-etal_year_journal`
-- Multiple publications in the same journal:  `lastname-etal_year-letter_journal` (e.g., `human-etal_2020-b_nature`)
+<sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA  
+<sup>2 </sup> University of California - Santa Barbara, Santa Barbara, CA, USA  
+<sup>3 </sup> Joint Global Change Research Institute, College Park, MD, USA  
 
-## Customize your `.gitignore` file
-A general `.gitignore` for use with Python or R development is included.  However, you may wish to customize this to the needs of your project.  The `.gitignore` file lets Git know what to push to the remote repository and what needs to be ignored and stay local.
+\* corresponding author: casey.burleyson@pnnl.gov
 
-## Suggestions
-- Don't bog down your repository with a bunch of raw data.  Instead archive and mint a DOI for your data and provide the reference in this repository with instructions for use.
-- Create complete and tested documentation for how to use what is in this repository to reproduce your experiment.
+## Abstract
+Climate and population change are known to influence electricity demand, but what is the impact of uncertainty in 
+climate and population projections on electricity demand in the United States (U.S.) over the next 30 years? This 
+question has important implications for investment decisions in the energy sector, which are typically made using a 
+15- to 30-year time horizon. Simply put, if future climate and population scenarios do not lead to meteorological 
+conditions and subsequent energy demands that are distinctly different within the first 30 years then, for the purposes 
+of investment decisions, it may not matter which potential pathway we are most likely on. The Integrated, Multisector, 
+Multiscale Modeling (IM3) project has generated a wide, yet plausible range of 21st century high-resolution climate and 
+population scenarios for the U.S. The IM3 projections span two climate scenarios (Representative Concentration Pathways 
+4.5 and 8.5) and two population scenarios (Shared Socioeconomic Pathways 3 and 5). For each of the climate scenarios, 
+we reflect a range of climate model uncertainty by using boundary conditions from a set of climate models that are 
+hotter and colder than the multimodel mean. In total there are eight (2 x 2 x 2) IM3 scenarios. This work explores a 
+basic question: When do future climate and energy outcomes start to meaningfully diverge across the eight scenarios? 
+The analysis is done on both the raw meteorology time-series from each scenario as well as a time-series of projected 
+total electricity demand generated using IM3’s Total ELectricity Loads (TELL) model. We also explore the spatial 
+heterogeneity of the divergence signal to identify regions of the country that may be more or less path dependent.
 
-## Creating a minted release for your meta-repository
-It is important to version and release your meta-repository as well due to changes that may occur during the publication review process.  If you do not know how to conduct a release on GitHub when linked with Zenodo, please contact chris.vernon@pnnl.gov to get set up.  
+## Journal reference
+TBD
 
-## The meta-repository markdown template
-A sample meta-repository template is provided in this repository in the file `metarepo_template.md`.  
+## Code reference
+TBD
 
-To use it, do the following:
-1. Create the template repository as mentioned above in [Using the template](#using-the-template)
-2. Clone your new repository to you local machine
-3. Change directories into your new meta-repository directory you just cloned
-4. Run `git rm README.md` to delete this file (`README.md`) and commit it using `git commit -m 'remove instructions'`
-5. Rename `metarepo_template.md` as `README.md`
-6. Run `git add README.md` to stage the new file that will show up on load in your remote GitHub repository
-7. Run `git rm metarepo_template.md` to remove the original template
-8. Run `git commit -m 'set up new template as readme'` to set the changes
-9. Run `git push` to send the changes to your remote GitHub repository
-10. Modify the `README.md` file to represent your experiement and use the `add`, `commit`, `push` workflow to update your remote repository
+## Data reference
+
+### Input data
+TBD
+
+### Output data
+TBD
+
+## Contributing modeling software
+| Model | Version | Repository Link | DOI |
+|:-----:|:-------:|:---------------:|:---:|
+| TELL | v1.1 | https://github.com/IMMM-SFA/tell | TBD |
+
+## Reproduce my experiment
+1. TBD
+
+| Script Name | Description |
+|-------------|-------------|
+
+## Reproduce my figures
+1. Use the following notebooks found in the `notebooks` directory to reproduce the figures used in this publication.
+
+| Order |                Script Name                 |                                     Description                                      |
+|:-----:|:------------------------------------------:|:------------------------------------------------------------------------------------:|
+|   1   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads from TELL by interconnection |
