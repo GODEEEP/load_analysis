@@ -1,6 +1,6 @@
 # Balancing Authority Level Analyses
 >
-| Name | Time Series | Transportation BAU 2035 | Transportation NetZero 2035 | Transportation BAU 2050 | Transportation NetZero 2050 |
+| Name | Time Series | TRN BAU_Climate 2035 | TRN NetZeroNoCCS_Climate 2035 | TRN BAU_Climate 2050 | TRN NetZeroNoCCS_Climate 2050 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | AVA  | <img src="figures/BAs/AVA_Loads.png" width="50">  | <img src="figures/BAs/AVA_BAU_Trans_2035.png" width="50">  | <img src="figures/BAs/AVA_NetZero_Trans_2035.png" width="50">  | <img src="figures/BAs/AVA_BAU_Trans_2050.png" width="50">  | <img src="figures/BAs/AVA_NetZero_Trans_2050.png" width="50">  | 
 | AZPS | <img src="figures/BAs/AZPS_Loads.png" width="50"> | <img src="figures/BAs/AZPS_BAU_Trans_2035.png" width="50"> | <img src="figures/BAs/AZPS_NetZero_Trans_2035.png" width="50"> | <img src="figures/BAs/AZPS_BAU_Trans_2050.png" width="50"> | <img src="figures/BAs/AZPS_NetZero_Trans_2050.png" width="50"> |
